@@ -1,0 +1,75 @@
+# .gitignore для Unity проекта
+# Взято из официального шаблона GitHub: https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Папки, которые Unity генерирует сама
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Мета-файлы ассетов должны игнорироваться только если игнорируется сам ассет
+!/[Aa]ssets/**/*.meta
+
+# Раскомментируй, если не хочешь тащить Asset Store Tools
+# /[Aa]ssets/AssetStoreTools*
+
+# Автогенерируемый плагин JetBrains Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Кэш Visual Studio
+.vs/
+
+# Кэш Gradle
+.gradle/
+
+# Автогенерируемые файлы решений и проектов VS/MD/Consulo
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Мета-файлы, сгенерированные Unity
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Файл с информацией о краше
+sysinfo.txt
+
+# Сборки
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# Упакованные Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Временные авто-генерируемые Android ассеты
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# OS-мусор
+.DS_Store
+Thumbs.db
+desktop.ini
